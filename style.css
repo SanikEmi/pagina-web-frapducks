@@ -1,0 +1,449 @@
+@font-face {
+    font-family: 'Dayrom';
+    src: url(fonts/dayrom.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Jersey';
+    src: url(fonts/Jersey_10/Jersey10-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Oswald';
+    src: url(fonts/Oswald/Oswald-VariableFont_wght.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'PT_Serif';
+    src: url(fonts/PT_Serif/PTSerif-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'FrapDucks';
+    src: url(fonts/Shrikhand/Shrikhand-Regular.ttf) format('truetype');
+}
+
+  /* Fondo de color para el cuerpo del HTML */
+    html{
+        margin: 0;
+    }
+    body {
+        /*background: url(img/logo\ no\ fondo\ ogt.png) no-repeat center center fixed; 
+        background-size: cover;*/
+        background-color: rgb(240, 221, 190); /* Cambia el color de fondo*/
+        margin-left: 20px;
+        font-family: 'PT_Serif', sans-serif; /* Cambia la fuente */
+        color: #333;
+        margin: 0; /* Elimina el margen predeterminado */
+        padding: 0; /* Elimina el relleno predeterminado */
+    }
+    .sombra{
+        border-radius: 5px;
+        box-shadow: 0px 2px 5px #1c1a19;
+        
+    } 
+    #ini{
+       color: rgb(71, 150, 20); 
+    }
+    .main_content{
+        background: url(img/v.jpg) no-repeat center center fixed; 
+        background-size: cover;
+    }
+    .main_giro{
+            background-image: url('img/fondo_giro.png');
+            background-size: contain; /* Ajusta el tamaño de la imagen para cubrir completamente el div */
+            background-position: center; /* Centra la imagen dentro del div */
+            background-repeat: no-repeat; /* Evita que la imagen se repita */
+            /* Otros estilos opcionales */
+            width: 100%; /* Ancho del div */
+            height: 400px; /* Altura del div */
+    }
+    article {
+        flex: 1;
+        padding: 10px;
+        text-align: justify;
+    }
+
+    aside {
+        font-family: 'Oswald', sans-serif; /* Cambia la fuente */
+        display: inline-block;
+        flex: 3;
+        padding: 10px;
+        border: 1px solid rgb(141, 81, 68);
+        background-color: rgb(141, 81, 68);
+        color: white;
+        border-radius: 5px;
+        vertical-align: top;
+        text-align: justify;
+        margin-left: auto; 
+        margin-right: auto;
+        max-width: 200px;
+        width: auto;
+        height: fit-content;
+        box-shadow: 0px 2px 5px #1c1a19;
+    }
+    nav{
+        font-family: Georgia, 'Times New Roman', Times, serif /* Cambia la fuente */  
+    }
+
+    table{
+        border-collapse: collapse;
+        width: 100%;
+        max-width: 800px;
+        margin: 0 auto;
+        box-shadow: 0px 2px 5px #1c1a19;
+    }
+            table th{
+                background-color: rgb(55, 28, 22);
+            }
+            table td{
+                background-color: rgb(141, 81, 68);
+
+            }
+
+
+  
+        h1{
+            font-family: 'FrapDucks', Arial, sans-serif;
+            color: rgb(55, 28, 22);
+        }
+        h1 #ini{
+            color: rgb(71, 150, 20); 
+         }
+        h2{
+            font-family: 'Times New Roman', Times, serif;
+            color: rgb(55, 28, 22);
+        }
+        p{
+            margin-left: 30px;
+        }
+        hr{
+            color: rgb(255, 255, 255);
+        }
+        #cuadro-de-lado > p{
+            margin-left: -25px;
+            margin-right: auto;
+        }
+
+        .articulo_ini, footer{
+            box-shadow: 0px 2px 5px #1c1a19;
+        }
+        .main_title{
+            margin-left: 20px;
+            align-items: center;
+            align-self: center;
+            align-content: center;
+            text-align: center;
+        }
+        .main_title img{
+            height: 250px;
+        }
+
+                
+                .inicio{
+                    margin-left: 20px;
+                }
+
+                    /*ZONA DEL TEXTO*/
+                .text_intro, .main_fut_title{
+                    color: white;
+                }
+
+                .movedera1{
+                    display: flex;
+                    justify-content: center; /* Centra horizontalmente */
+                }
+                .menufd{
+                    font-family: FrapDucks;
+                }
+
+                .articulo_ini, .cedula1, .cedula2, .menufd{
+                    display: inline-block;
+                    flex: 3;
+                    padding: 10px;
+                    border: 1px solid rgb(55, 28, 22);
+                    background-color: rgb(55, 28, 22);
+                    color: white;
+                    border-radius: 5px;
+                    box-shadow: 0px 2px 5px #1c1a19;
+                    margin-left: 20px; 
+                    margin-right: 20px;
+                    max-width: 1080px;
+
+                    width: auto;
+                    height: fit-content;
+
+                }
+                .txt_ini_main{
+                    text-align: center;
+                    size: 6;
+                    font-family: 'FrapDucks', Arial, sans-serif;
+                    color: rgb(55, 28, 22);
+                }
+                .txt_ini_mainmenu{
+                    text-align: center;
+                    size: 6;
+                    font-family: 'FrapDucks', Arial, sans-serif;
+                    color: white;
+                }
+
+                .contenedor_cuestionario{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        height: auto;
+                        margin: 0;
+                      }
+
+                .ej_cuest {
+                    display: inline-flex; /* Cambiado de flex a inline-flex */
+                    justify-content: center; 
+                    align-items: center; 
+                    padding: 10px; /* Agregado relleno */
+                    border: 1px solid rgb(55, 28, 22);
+                    background-color: rgb(55, 28, 22);
+                    border-radius: 5px;
+                    margin-left: 20px; 
+                    margin-right: 20px;
+                    max-height: 100%;
+                }
+                #preg1 h4{
+                    font-family: FrapDucks;
+                    color: white;
+                    text-align: center;
+                }
+
+                .cedula2 {
+                    text-align: center;
+                    border-radius: 5px; /*curva*/
+                    object-position: center;
+                    width: auto;
+                    height: auto; 
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+                .asidec2 {
+                    flex: auto;
+                    width: 20%; 
+                    margin-left: auto;
+                    margin-right: auto;
+                    flex-direction: row;
+                    justify-content: center;
+                    height: 100%;
+                }
+                #arrow{
+                    position: absolute;
+                    top: 100px; /*parte de arriba del aside*/
+                    left: -12px;
+                }
+                .contenido_promo, .contenido_servidomi, .contenido_mision{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .contenido_mision img{
+                    height: 500px;
+                }
+
+                .eslogan{
+                    justify-content: center; /* Alinea horizontalmente al centro */
+                    align-items: center; /* Alinea verticalmente al centro */
+                    height: 100vh; 
+                    border-radius: 5px;
+                    display: inline-block;
+                    padding: 10px;
+                    border: 1px solid rgb(55, 28, 22);
+                    background-color: rgb(55, 28, 22);
+                    color: white;
+                    margin-left: 20px; 
+                    margin-right: 20px;
+                    max-width: 1000px;
+                    height: fit-content;
+                }
+                .giro, .cedula4{
+                    justify-content: center; /* Alinea horizontalmente al centro */
+                    align-items: center; /* Alinea verticalmente al centro */
+                    height: 100vh; 
+                    border-radius: 5px;
+                    display: inline-block;
+                    padding: 10px;
+                    border: 1px solid rgb(55, 28, 22);
+                    background-color:  rgb(55, 28, 22);
+                    color: white;
+                    margin-left: 20px; 
+                    margin-right: 20px;
+                    max-width: 1000px;
+                    height: fit-content;
+                    box-shadow: 0px 2px 5px #1c1a19;
+                  }
+                  
+                  .eslogan img, .cedula4 img{
+                    font-family: FrapDucks;
+                    max-width: 100%; 
+                    max-height: 100%;
+                  }
+
+                .main_footer, .carru_container, .carrusel_main{
+                    flex: 3;
+                    background-color: rgb(55, 28, 22);
+                    color: white;  
+                }
+
+/*-------------------BOTONES DE NAVEGACIÓN--------------------------------------------------------------------------*/
+                                .menu {
+                                    display: flex;
+                                    justify-content: space-between;
+                                    background-color: rgba(145, 0, 0, 0.8); /* Color #910000 con 80% de opacidad */
+                                    padding: 10px;
+                                    flex-direction: column;
+                                    align-items: center;
+                                }
+                                
+                                .menu nav ul {
+                                    list-style-type: none;
+                                    margin: 0;
+                                    padding: 0;
+                                    display: flex;
+                                }
+                                
+                                .menu nav ul li {
+                                    margin: 0 5px;
+                                }
+                                
+                                .menu nav ul li a {
+                                    text-decoration: none;
+                                    color: #fff;
+                                    padding: 10px 20px;
+                                    border-radius: 5px;
+                                }
+                                
+                                .menu nav ul li a:hover {
+                                    background-color: #fff;
+                                    color: #910000;
+                                }
+                                .eslogan h2{
+                                    color: white;
+                                }
+/*------------------------------------ CARRUSEL INDEX ------------------------------------- */
+.carrusel_main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; /* Añade espacio alrededor del carrusel */
+    border: 1px solid white;
+}
+
+.carru_container {
+    width: 70%;
+    max-width: 1000px; /* Limita el tamaño máximo */
+    margin: auto; /* Centra el contenedor */
+}
+
+.carru_item {
+    text-align: center; /* Centra el contenido de cada item */
+}
+
+.carru_container img {
+    width: auto;
+    height: 200px;
+    margin: 0 auto; /* Centra las imágenes */
+}
+            /* Estilos para los botones de navegación */
+            .slick-prev, .slick-next {
+                font-size: 20px;
+                line-height: 1;
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                z-index: 1;
+                cursor: pointer;
+                color: white;
+                background-color: rgba(0, 0, 0, 0.5);
+                border: none;
+                padding: 10px;
+                border-radius: 50%;
+            }
+            /*No se que hice aquí pero si lo quito no jala bien*/
+            .slick-prev {
+                left: 10px;
+            }
+            .slick-next {
+                right: 10px;
+            }
+
+            /* Estilos para las animaciones de navegación */
+@keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+.fade-out {
+    animation: fadeOut 1s backwards;
+}
+
+.fade-in {
+    animation: fadeIn 1s backwards;
+}
+
+/* -----------------------------------------------------------------------------efectos visuales-------------------------------- */
+    #particles {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+
+    #typing {
+        border-right: 2px solid #fff;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    .glow-button .menu{
+        border: none;
+        outline: none;
+        padding: 15px 30px;
+        color: white;
+        font-size: 18px;
+        cursor: pointer;
+        /*background: linear-gradient(45deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #8b00ff);*/
+        background: linear-gradient(45deg, #910000, #ff7f00, #ff0000, #910000);
+        background-size: 400%;
+        transition: 0.4s;
+        box-shadow: 0 0 20px #eee;
+        animation: glow 1.5s infinite;
+    }
+
+    .glow-button:hover {
+        background-position: 200%;
+        box-shadow: 0 0 40px #ff7f00;
+    }
+
+    @keyframes glow {
+        0% {
+            background-position: 0%;
+        }
+        50% {
+            background-position: 100%;
+        }
+        100% {
+            background-position: 0%;
+        }
+    }
+
+    .snowflake {
+        position: absolute;
+        top: 0;
+        background: white;
+        border-radius: 50%;
+        opacity: 0.8;
+        pointer-events: none;
+        animation: fall linear infinite;
+    }
+    @keyframes fall {
+        to {
+            transform: translateY(100vh);
+        }
+    }
